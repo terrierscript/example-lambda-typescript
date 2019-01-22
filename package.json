@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "parcel": "^1.11.0",
+    "parcel-plugin-zip": "^1.0.6"
+  },
+  "dependencies": {
+    "typescript": "^3.2.4"
+  }
+}
