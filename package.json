@@ -1,9 +1,11 @@
 {
   "devDependencies": {
-    "parcel": "^1.11.0",
-    "parcel-plugin-zip": "^1.0.6"
+    "parcel": "^1.11.0"
   },
   "dependencies": {
     "typescript": "^3.2.4"
+  },
+  "scripts": {
+    "build": "yarn parcel build functions/handler.ts --target=node --global handler -o index.js --bundle-node-modules --no-source-maps"
   }
 }
